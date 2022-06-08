@@ -1,0 +1,13 @@
+<h1>Pending Issues</h1>
+<app-issue-list (selected)="selectedIssue = $event"></app-issue-list>
+<div class="button-wrapper">
+  <button class="btn btn-primary" type="button" (click)="goToIssueForm()">
+    Add new issue
+  </button>
+</div>
+
+<!-- Complete Issue Dialog -->
+<app-confirm-dialog
+  [issueNo]="selectedIssue ? selectedIssue.issueNo : null"
+  (confirm)="completeIssue($event)"
+></app-confirm-dialog>
