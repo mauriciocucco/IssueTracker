@@ -2,7 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7 and **Clarity Design System** (https://angular.clarity.design/documentation/get-started).
 
-##Installation
+## Installation
+
 Run `npm install`.
 
 ## How to run it locally
